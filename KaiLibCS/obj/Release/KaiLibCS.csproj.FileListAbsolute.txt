@@ -1,3 +1,0 @@
-D:\Dev\Kai\Release\KaiLibCS.dll
-D:\Dev\Kai\KaiLibCS\obj\Release\ResolveAssemblyReference.cache
-D:\Dev\Kai\KaiLibCS\obj\Release\KaiLibCS.dll
