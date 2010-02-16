@@ -1,7 +1,0 @@
-D:\Dev\Kai\Release\AsciiDecoder.dll
-D:\Dev\Kai\Release\AsciiDecoder.pdb
-D:\Dev\Kai\AsciiDecoder\obj\Release\ResolveAssemblyReference.cache
-D:\Dev\Kai\AsciiDecoder\obj\Release\AsciiDecoder.AsciiDecoderForm.resources
-D:\Dev\Kai\AsciiDecoder\obj\Release\AsciiDecoder.csproj.GenerateResource.Cache
-D:\Dev\Kai\AsciiDecoder\obj\Release\AsciiDecoder.dll
-D:\Dev\Kai\AsciiDecoder\obj\Release\AsciiDecoder.pdb
