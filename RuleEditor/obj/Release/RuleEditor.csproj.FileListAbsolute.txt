@@ -1,0 +1,12 @@
+D:\Dev\Kai\Release\RuleEditor.exe
+D:\Dev\Kai\Release\RuleEditor.pdb
+D:\Dev\Kai\RuleEditor\obj\Release\ResolveAssemblyReference.cache
+D:\Dev\Kai\RuleEditor\obj\Release\KaiListBox.KaiListBox.resources
+D:\Dev\Kai\RuleEditor\obj\Release\KaiListView.KaiListView.resources
+D:\Dev\Kai\RuleEditor\obj\Release\KaiTextBox.KaiTextBox.resources
+D:\Dev\Kai\RuleEditor\obj\Release\RuleEditor.Properties.Resources.resources
+D:\Dev\Kai\RuleEditor\obj\Release\RuleEditor.RuleDialog.resources
+D:\Dev\Kai\RuleEditor\obj\Release\RuleEditor.RuleEditor.resources
+D:\Dev\Kai\RuleEditor\obj\Release\RuleEditor.csproj.GenerateResource.Cache
+D:\Dev\Kai\RuleEditor\obj\Release\RuleEditor.exe
+D:\Dev\Kai\RuleEditor\obj\Release\RuleEditor.pdb

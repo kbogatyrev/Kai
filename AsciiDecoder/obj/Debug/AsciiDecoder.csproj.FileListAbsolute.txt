@@ -1,0 +1,7 @@
+D:\Dev\Kai\Debug\AsciiDecoder.dll
+D:\Dev\Kai\Debug\AsciiDecoder.pdb
+D:\Dev\Kai\AsciiDecoder\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\Kai\AsciiDecoder\obj\Debug\AsciiDecoder.AsciiDecoderForm.resources
+D:\Dev\Kai\AsciiDecoder\obj\Debug\AsciiDecoder.csproj.GenerateResource.Cache
+D:\Dev\Kai\AsciiDecoder\obj\Debug\AsciiDecoder.dll
+D:\Dev\Kai\AsciiDecoder\obj\Debug\AsciiDecoder.pdb

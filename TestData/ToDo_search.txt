@@ -1,0 +1,10 @@
+SEARCH TODO
+
+1. When switching simple to boolean either clean search combo or copy contents to enter term combo
+2. Boolean search checkbox / "b" key??
+3. Single term in boolean search -- treat as simple search
+4. Investigate multiple words as single term (remove "words" option??)
+5. Change in text --> change in context
+6. Select all words in context window after user pressed "next"
+7. Disable static stuff after Boolean -> simple
+8. History combo for Boolean

@@ -1,0 +1,525 @@
+
+Tue 2-5-02	7:15 - 8:45		1.5		Justification
+Wed 2-6-02	7:20 - 9:20		2.0		Justification
+									Fixes in Paragraph
+									NB: need SID::GetWindowsFont()
+Thu 2-7-02	7:05 - 9:15		2.0		Justification: KaiView
+Sat 2-9-02	13:15 - 16:00  ~2.0		Same
+			20:00 - 23:00  ~2.0		Same
+Sun 2-10-02					~.5		Same
+						   ----
+						   10.0
+
+Mon 2-11-02	8:40 - 10:10	1.5		Same bliad'
+Tue 2-12-02 7:00 - 9:00		2.0		  -"-
+Fri 2-15-02	6:55 - 9:00		2.0		  -"-
+Sun 2-17-02 8:40 - 11:45	3.0	    Some progress!	
+						    ---
+						    8.5
+
+Sat 2-23-02 8:50 - 1:45		3.0		Started integration with 1.0
+									Scroll
+				            ---
+	         	    	    3.0
+
+Mon 2-25-02 7:00 - 9:00		2.0		Justification bugs
+							 .5		    -"-
+Tue 2-26-02 7:15 -			1.75	    -"-
+Fri 3-1-02	7:00 -			1.0	        -"-
+Sun 3-3-02	11:45 -			3.0	        -"-
+				            ----
+							8.25
+
+Mon 3-4-02	 6:30 - 9:30	2.25	     -"-
+Tue 3-5-02   7:30 -			1.5		     -"-
+Wed 3-6-02	21:00 -			~1.0	     -"- some progress
+Thu 3-7-02   6:20 -	8:00	1.5		     -"-
+Fri 3-8-02	22:20 - 0:20	2.0		     -"-, unsigned int -> int
+Sat 3-9-02	 9:40 -			1.5		    Optimizing KaiString
+			21:40 - 00:05	~2.0		Optimizing View
+San 3-10-02  9:00 - 10:45   1.75
+					        ----
+					        13.5
+[Approx. 7.8 K lines]
+
+
+Mon 3-11-02	 7:45 -			1.5		  Render bugs (golova bolela)
+Tue 3-12-02  scattered		1.0		  -"-
+Wed 3-13-02  6:50 -			2.0		  -"-
+Thu 3-14-02 22:35 -			2.5		  Scrollbars
+Fri 3-15-02	 6:45 -			2.0		  Scroll
+Sat 3-16-02  9:00 -			2.0		  -"-
+Sun 3-17-02  9:45 -			.5
+			21:00 - 23:15	2.0		  Flicker
+							----
+							13.5
+
+Mon 3-18-02  6:40 -			2.25	  Flicker
+Tue 3-19-02	 7:10 -			1.75	  Optimization
+Wed 3-20-02	22:00 - 0:00   ~1.00	  -"-
+Thu 3-21-02  7:15 -			1.75	  -"-
+Sun 3-24-02  8:45 -			1.00	  -"-
+			21:15 -			2.00	  -"-
+							----
+							9.75
+
+Mon 3-25-02 vecher			1.25	  VScroll
+Tue 3-26-02 7:10 -			1.75	  VScroll
+Wed 3-27-02	7:15 -			1.5		  -"-
+                       		----
+							4.5
+
+(Steve avral, NSF evaluations)
+
+Sat 4-06-02	9:25 -	    	1.0
+Sun 4-07-02	morning       	2.25	  VScroll, flicker
+                            ----
+							3.25
+
+Tue 4-09-02 7:00 -			2.0		  VScroll
+Wed 4-10-02	7:15 -			1.75	    -"-
+Fri 4-12-02	6:45 -			1.5
+Sun 4-14-02	vech.			2.0		  VScroll
+                            ----
+							7.25
+
+Mon 4-15-02 7:00 -			2.0		  VScroll some progress
+Tue 4-16-02	7:00 -			2.0		  -"-, fixed p. 9!
+							---
+							4.0
+
+[ ~ Two months lost: CCAT + 2 NSF proposals + SBIR Conference ]
+
+Thu 6-13-02	17:35 -			 .25 [Chicago Midway airport]
+Sat 6-15-02 21:45 -			1.5
+Sun 6-16-02  8:00 - 10:00   2.0
+			22:00 - 23:45	1.5
+							---
+							5.25
+
+Mon 6-17-02	 6:50 - 8:45	1.75	VScroll, issues with display window
+Wed 6-19-02  7:10 - 8:55	1.75			-"-
+			22:35 -		     .5
+Thu							[lost contract at HP]
+							----
+							4.0
+
+Mon 7-01-02				     ?
+Tue 7-02-02				     ?		VScroll, screen flicker (some progress)
+Wed 7-03-02				   ~3.0	
+Thu 7-04-02	 6:30 - 8:30	2.0
+			10:05 -			3.5
+Fri 7-05-02  8:00 -		   ~2.0		Design issues in paragraph class etc..
+Sat 7-06-02					2.0		Re-design, memory DC
+San 7-07-02  6:30 - 9:00	2.5
+			 6:45 - 7:45	1.0
+			 8:45 - 9:30     .5
+			               ----
+						   16 - 20 (?)
+
+Mon 7-08-02					  0		INS, New York job, etc
+Tue 7-09-02  9:30 - 10:20	 .8		(on the plane Den->EWR)
+Wed 7-10-02	 9:15 -			 .25
+Thu 7-11-02  Morning		1.5		INS again, CCAT, sleep
+			 Scattered      1.0	     
+Fri 7-12-02  Morning		1.5
+			 Afternoon	    1.25    Bug fixes, scroll down seems to work
+			19:40 - 20:20    .5
+			21:40 -	22:20	 .5
+Sat 7-13-02  7:30 -  9:30	1.5
+			23:15 -  0:00    .5
+Sun 7-14-02  8:30 -  9:30   1.0
+			18:50 - 21:00   2.2
+						   ----
+						   12.5
+
+Mon 7-15-02  7:45 - 12:00   1.5
+			 afternoon		1.5
+			21:00 - 22:25   1.0
+Tue 7-16-02  6:30 -  8:00	1.0
+			11:45 -		   ~2.0
+Wed	7-17-02 13:00 - 14:00   1.0
+			16:00 - 17:30   1.5
+			21:50 -			 .5
+Thu	7-18-02  7:15 -	10:30	3.0
+			21:30 -			1.0
+Fri 7-19-02 14:50 - 17:00	1.5		Started partial length (UD work)
+			21:20 -			1.0
+Sat 7-20-02 14:40 - 15:10   1.0		(New car)
+			22:30 -			1.25
+Sun 7-21-02  6:40 -  8:20   1.5
+			 9:40 -	10:30    .25
+			16:30 - 17:45	1.25
+			22:15 - 23:15	1.5
+							----
+							23.25
+
+Mon 7-22-02	11:20 -			~2.0
+Tue 7-23-02 15:00 -			 0.5
+			21:45 -			 1.0	Redesigning line rendering
+Wed 7-24-02					~4.0		- " -
+Thu 7-25-02	morn-afternoon  ~6.0		- " - compound class, etc
+Fri 7-26-02 11:45 - 16:00	~2.5
+Sat 7-27-02					~0.5	(Cold, etc.)
+							----
+							16.00
+
+Mon 7-29-02 11:25 -	14:00	2.0
+
+(Move to NYC, Army SBIR)
+
+Sun 9-08-02 15:15 - 15:45	  .5
+			17:00 - 23:00	 2.0
+							----
+							 2.5
+
+Mon 9-09-02	20:30 - 23:00	 1.0
+Tue 9-10-02 22:00 -			 1.0
+Wed 9-11-02							9/11 Memorial
+Thu 9-12-02	21:30			 1.0
+Fri 9-13-02
+Sat 9-14-02 15:00 -	00:30	 4.0
+San 9-15-02 13:30 - 23:00	 3.0
+							----
+							10.0
+Mon 9-16-02 21:45 -
+
+(San Diego, CCAT presentation, 
+"congrat on your marriage"; Dean)
+(Found about C# -- should I pause
+and switch to .Net?)
+
+Sat 10-19-02 - 10-28-02
+
+(Dean, avral, no weekends, CLIR proposal recommended)
+
+Sun 11-10-02 06:30 -		~5.0	First test of new rendering
+							----
+							 5.0
+
+Mon 11-11-02 07:30 -		~4.0
+							----
+							 4.0
+(Lefebvre, white paper)
+
+Sat 11-16-02 13:30 - 16:00	 2.5
+Sun 11-17-02				~5.0
+							----
+							 7.5
+(Lost contract at Chase)
+(Larry Willis - DARPA - "read ahead")
+
+Wed 11-20-02  06:45 - 9:30	 2.25
+              21:15 -		  .25
+Thu 11-21-02				~1.00
+(Kirsten's wedding)
+Sat 11-23-02  17:30 - 18:45  1.25	Caret repositioning
+			  20:00 - 20:50    .8
+(Back home)
+							 ----
+							 5.65
+
+Mon 11-25-02  06:40 -		 ~3.0
+Tue 11-26-02				  3.0
+Wed 11-27-02				  3.0
+Fri 11-29-02				  1.0	Caret repos. works
+Sat 11-30-02  08:25 -  9:30
+			  11:15 - 12:45			Rendering bug
+			  18:15 -		 ~4.5
+Sun 12-01-02  07:50 -		  1.75  Started KeyDn
+			  20:15 -		 ~1.5
+							 ----
+							 16.75
+
+Mon 12-02-02  07:40 - 10:10  ~2.0
+			  15:50 - 19:00  ~2.0
+Tue 12-03-02  18:05 - 21:00  ~2.5
+Wed 12-04-02  17:00 - 21:00  ~3.5
+Thu 12-05-02  07:10 - 08:30	  1.3
+			  09:50 - 12:30	 ~1.0
+			  16:12 - 21:00  ~4.0
+Fri 12-06-02  08:30 - 12:30	 ~2.5
+			  17:00 - 20:30  ~2.5	Caret pos to caret XY issue
+Sat 12-07-02  22:45 - 00:45   1.5
+Sun 12-08-02  11:00 - 14:30   2.5
+                            -----
+							 25.3
+
+Mon 12-09-02  (cold)
+Tue 12-10-02  19:00 - 21:30  ~1.5	Award letter from NSF
+Wed 12-11-02  17:00 - 21:30   3.0
+			  22:50 -		   .5
+Thu 12-12-02  11:55 -		   .5
+			  14:55 - 16:00   1.0
+			  18:30 - 21:30   2.0
+			  23:45 - 00:15    .5
+Fri 12-13-02  10:55 - 12:30   1.5
+			  19:30 - 21:00   1.5
+Sat 12-14-02  09:00 - 11:00	  2.0	LineDown bug
+			  14:15 - 14:45    .75
+			  20:50 -          .5
+Sun 12-15-02  09:30 - 10:45   1.25  
+							 ~1.5	KeyDn: caret repositioning done
+			  19:00 -		  1.0	Started selection
+							 -----
+							 19.00
+
+Mon 12-16-02  09:30 -		 ~2.5   Illness, toothache
+Tue 12-17-02  10:00 -		   .5
+		      17:30 - 20:00   2.5
+(San Diego, CCAT mtg, Dina, Sharon)
+Fri 12-20-02				 ~2.0
+Sat 12-21-02                 ~3.0
+Sun 12-22-02				 ~3.0
+                             -----
+							 13.5
+
+(Sick)
+Thu 12-26-02  16:00 - 18:30	  2.0
+Fri 12-27-02  21:00 - 00:00	  2.5   Dentist, some UD work
+Sat 12-28-02  08:30 - 11:15   2.5   Trip to Buena Vista
+Sun 12-29-02  16:15 - 18:30   2.0	Back in COS; progress w/static sel.
+			  22:20 - 23:40   1.3
+							 ----
+							 10.3
+ 
+Mon 12-30-02  17:15 - 18:30   1.25  Dentist, UD work
+			  23:15 - 23:45	   .5
+Tue 12-31-02  Morning		   .5   Dina; Static sel. is better
+			  17:00 - 
+							 ----
+							 ~3.0
+(Proposals)
+
+Fri  1-17-03				~1.0
+Sat  1-18-03				~2.0
+Sun  1-19-03				~2.0	Static selection - bug fixes
+							-----
+							 5.0
+
+(San Diego, CCAT)
+
+Sat	 1-25-03	 9:15 -
+Sun  1-26-03	 ???
+
+(NSF Phase I work)
+
+Tue  2-18-03	20:30-22:15  1.5	Bug fixes in selection
+Sat  2-22-03	07:55-10:00	 2.0		-"-
+				22:20-00:55	 2.0
+Sun	 2-23-03	08:40-11:00	 2.0
+				14:00-15:00	 1.0
+				19:55-11:20	 1.5
+							----
+							10.0
+
+Mon  2-24-03	 9:30-11:15  1.5	Bug fixes in selection
+Wed  2-26-03	 9:30-11:00	 1.5
+Thu  2-27-03	 9:30-11:00	 1.5
+Fri	 2-28-03	 9:30-11:00	 1.5
+Sat	 3-01-03	 9:10-11:10	 2.0	Found a temp fix for Tooltips accviol
+							----
+							 8.0
+
+(Trip to DS)
+
+Tue	 3-04-03	 7:30-9:30	 1.5
+				23:30-		  .25
+Wed	 3-05-03	 7:30-9:20	 1.5	Started dynamic selection
+Thu	 3-06-03	 7:30-9:20	 1.5
+Fri  	 3-07-03	17:40-18:50	 1.0
+Sat	 3-08-03	 8:05-10:20	 1.5	Dyn. sel workd more or less.
+				11:30-12:55	 1.25	Bug fixes in dyn seection
+						    -----
+						     8.5
+						     
+(DARPA & AF resubmission, NSF work, grantees workshop, math)
+
+Sat 4-19-03	     9:15-14:45	 5.0	Started port to .NET; multiple problems...
+Sun 4-20-03	    10:30-14:00  3.0	Fixed iterator arithmetics problem; seems to work under .Net
+
+Sat 4-26-03	     9:10-14:30	 4.0						     
+				17:30-18:30	 1.0
+Sun 4-27-03	     9:40-				
+
+May 2003		Scattered hours almost daily. 
+				Implemented keyboard entry. Also: fixes in scrolling; fixed memory leaks; 
+				switched to pointers in the font array; redesigned TextPos; added
+				CopyAttributes() method to paragraph and string classes; changed doc class 
+				to remove CRs; made miscellaneous changes to support text editing.
+
+June-July 2003		Ported most of the code to UNICODE. Still need to make changes in IO; redesigned
+					TextPos (again).
+
+August 2003 - April 2004 See CVS log entries.
+August 2004 - July 2005  Significant changes in paragraph, textpos, selection, and editing; 
+					   support for multiple fonts.
+Sat 7-16-05		Scattered hours, most of the day
+Sun 7-17-05			-- " --
+Mon 7-18-05		~2 hrs
+Tue 7-19-05		~2 hrs		^-- debugging selection + font change
+Sat 7-23-05 		nach. 11
+Sun 7-24-05		???
+Sat 7-30-05    		~ 1 hr still fixing bugs in font change
+Sun 7-31-05		??? started diacritics
+Fri 8-05-05		Offer from Napster
+Sat 8-06-05		???
+Sun 8-07-05		Diacritics/fixing block delete
+Wed 8-10-05		Diacritic (deletion)
+Thu 8-11-05	   20:30 -
+Sat 8-13-05		Diacr
+Sun 8-14-05		Diacr
+Sat 8-20-05		Diacr
+Sun 8-21-05		Diacr
+Mon 8-22-05		Diacr
+Tue 8-23-05		Diacr
+Wed 8-24-05		Diacr switch to Actus
+Thu 8-25-05		Diacr
+Sat - Sun		Diacr
+Mon	8-29		Diacr
+Tue	8-30		Diacr
+Wed 8-31	    Diacr
+Thu 9-01		Diacr
+Fri 9-02		Diacr (flying to COS)
+
+(End of SellingSource, back to COS)
+Sun 9-04		Diacr
+Mon 9-05		Diacr
+Tue 9-06		Diacr
+Wed 9-07	    Diacr, bugs in font change
+Thu 9-08		Clipboard
+Fri 9-09 - Fri 9-17 Clipboard
+
+(Mon 9-12 started at Napster)
+Sun  9-18	    Copy/Paste works
+Sun  9-19 - 9-22 Undo
+Sun  9-25  ~5	- " -
+
+Mon  9-26   1.5 - " -
+Tue  9-27  ~2.5  copy/paste bugs
+Wed  9-28  ~3.0    - " -
+Thu  9-29  ~3.0    - " -
+Fri  9-30  ~2.0	   - " -
+Sat 10-01  ~2.5	   - " - fixed
+Sun 10-02  ~5.0	   PgUp/PgDn performance
+
+Mon 10-03   1.5   (Starostin)
+Tue 10-04   2.0 (?) Performance
+Wed 10-05   1.5 (sick)
+Thu 10-6    2.0 Bugs (Pereezd)
+Sat 10-8	2.0 Bugs (Pereezd, J.)
+Sun 10-9    6.0 Bugs
+
+Mon 10-10	1.75 Vscroll bugs
+Tue 10-11	1.5     -"-
+Wed 10-12	2.75    -"-
+Thu 10-13   	1.5     -"-
+Fri 10-14	??
+
+Sat 10-15 - Fri 10-28: Din/Emily, Flu, Kansas, L.A.
+
+Tue 11-01	? copy/paste bugs
+Wed 11-02   ~1.75
+Thu 11-03	~3 delete bugs
+Fri 11-04	~1.5 (Sasha, Doug)
+Sat 11-05   ~5.0
+Sun 11-06   ~5.0 fix scroll down
+
+Mon 11-07   ~1.5 bug fixes
+Tue 11-08   ~3.5 bug fixes
+Wed 11-09 - Sat 11-12 Tech offsite, LA, in-laws, J. fight
+Sun 11-13 -  ~ 1.5
+
+Tue 11-15	~ 2.5 scroll bugs
+Wed 11-16   ~ 2.5 J. job offer
+Thu 11-17   ~ 2.0 Doc save/open
+Fri 11-18	~ 1.5
+Sat 11-19   ~ 2.5
+Sun 11-20   ~ 3.5
+
+Mon 11-21	~ 1.5?
+Tue 11-22	~ 1.0
+Wed 11-23	~ 2.5
+Thu 11-24   ~ 6   Serialization done.
+Fri 11-25     ?   Started printing
+Sat 11-26     ?
+Sun 11-27     ?   
+
+Mon 11-28     ?   Print preview, etc.
+Tue 11-29 - Tue 12-06 Sick, SBIR, Dean, etc. (Toporov)
+Wed 12-07   ~1.0
+Thu 12-08   ~1.5
+Fri 12-09   ~1.5
+Sat 12-10   ~1.0  Printing
+Sun 12-11
+
+(Move with J.)
+
+Jan 2006: Printing (at least print preview)
+Feb 2006: Undo text delete; more event handlers; started search
+March 2006: Search
+April 2006: Boolean search
+May 2006: Boolean search
+June 2006: Boolean search
+July 2006: Fix/redesign undo and related
+August 2006: Horizontal scroll; caret jump; replace
+Late August -- Sept 4 2006: Implement replace
+September-October 2006: Optimize char inserts
+October - November 2006: Rightclick menus, $ formatting dialog
+Mid-Nov 2006 - Jan 2007: Redesign paragraph rendering, eliminate compounds
+Feb 4: Acceleration done.
+Feb 9 -  Redesign undoing text deletion; implement undo insert diacritic and font change
+
+Mon 2-12    2.5
+Tue 2-13    1.5
+Wed 2-14    1.25
+Thu 2-15    0 sick
+Fri 2-16    0 sick
+Sat 2-17    ~6 font modifications
+Sun 2-18    ~2.5 -- " --
+
+Mon 2-19    ~8.5 font modifications; font change debugging
+Tue 2-20
+Wed 2-21
+Thu 2-22    ~2.5 font modif. done
+Fri 2-23    ~3
+Sat 2-24    ~8
+Sun 2-25    ~8  printing
+Mon 2-26    ~1.5
+Tue 2-27    ~2.5
+Wed 2-28    1.5
+Thu 3-01    ?
+Fri 3-02    0
+Sat 3-03    ~1.0 work
+Sun 3-04    ~1.0 
+
+Mon 3-05    7:45-?
+(work)
+Sat 3-10    Indents/page width
+Sun 3-11
+
+Mon 3-12    2.5 Indents/printing done
+Tue 3-13   ~3.0
+Wed 3-14   ~3.25
+Thu 3-15   ~.5
+Fri 3-16   ~.3 gang mao
+Sat 3-15   ~5 logging redesign
+Sun 3-18
+
+Sat 3-31   0
+Sun 4-01
+
+===== UI Done =====
+
+4-16 - 5-13 Started .NET port
+
+Sat 5-12    ~6 .NET
+Sun 5-13    ~7 .NET
+
+Mon 5-14    1.75
+Tue 5-15    2.5
+Wed 5-16	2.85
+Thu 5-17	3.0
+Fri 5-18	3.0
+Sat 5-19	7.75
+Sun 5-20

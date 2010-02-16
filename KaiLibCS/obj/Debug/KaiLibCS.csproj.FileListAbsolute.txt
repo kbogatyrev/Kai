@@ -1,0 +1,5 @@
+D:\Dev\Kai\Debug\KaiLibCS.dll
+D:\Dev\Kai\Debug\KaiLibCS.pdb
+D:\Dev\Kai\KaiLibCS\obj\Debug\ResolveAssemblyReference.cache
+D:\Dev\Kai\KaiLibCS\obj\Debug\KaiLibCS.dll
+D:\Dev\Kai\KaiLibCS\obj\Debug\KaiLibCS.pdb

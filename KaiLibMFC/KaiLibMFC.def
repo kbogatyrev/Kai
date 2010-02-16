@@ -1,0 +1,6 @@
+; KaiLibMFC.def : Declares the module parameters for the DLL.
+
+LIBRARY      "KaiLibMFC"
+
+EXPORTS
+    ; Explicit exports can go here

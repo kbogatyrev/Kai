@@ -1,0 +1,39 @@
+*** done Diacritics break justification? 
+*** done 1. Diacr font is hardcoded (LineDescriptor::ShowDiacritics)
+*** done Accelerate deletechar()
+*** done Paragraph formatting via menu (r-click menu works?).
+*** done CTRL/b for bold, CTRL/i for italics, CTRL/u for underline.
+*** When view size is less than page size curson does not change when leaving client area
+*** done Closing print preview closes doc view
+*** done 3. File modified/save dlg.; see bug #1; also save dlg on newly created docs
+*** done 4. File extension must be kai when saving text file
+*** done 5. Mark dirty file tiles with "*" on window frame.
+*** done 6. Diacritic input mode via hotkey.
+*** done Select whole word on dblclick
+8. Remember view wnd pos.
+9. Maximize weirdness in print preview
+*** done Allow moving right border of client rect to change paragraph width.
+*** Undo format changes & diacritics.
+11. Log files management: make them optional? compress/delete old ones? don't save empty ones?
+12. Create missing folders, e.g., Trace if needed.
+13. START_OVER btn in Boolean search.
+14. Add hiliting to single word search.
+*** UNABLE *** 15. RTF conversions?
+16. Install
+17. CT_KaiString ctor very inefficient -- optimize and/or minimize use
+
+========== BUGS =========
+*** done 11. Insert char before a char with a diacritic
+*** done 0. Undo multi $$$ delete
+2. 1st line in NLP.kai
+3. Paste a multi-paragraph text from Notepad: need to replace \n's with eop's
+4. Enter doublequote into Notepad, cut and paste into Kai
+5. If total num of lines < screen height, make sure 1st line is visible
+6. Negative scroll offset
+7. Open BoolTest, move caret to end, hit enter, try to move caret down
+8. Bool proximity search -- within 1 sentence/paragraph
+9. Turn bool off -- see static not removed
+10. Selection with line spacing = 0.
+11. "Save ???" dialog -- remove "*".
+*** done Switch to print preview breaks justification
+*** done Select whole text with ctrl/a; change page indent; scroll; text that was below screen will show different indents.

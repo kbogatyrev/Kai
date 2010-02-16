@@ -1,0 +1,14 @@
+a         
+          
+a         
+The goal of Phase I  
+                            
+
+a                             
+yielded very promising results in the studies of conflict, reflexive control, and military planning. This pioneering theory was developed primarily by Vladimir A. Lefebvre (Lefebvre 1967, 1982, 1998, 2001). Lefebvre proceeds from several intuitively obvious assumptions, such as 
+(1) Behavior of individuals and organizations is often motivated by factors other than utility.
+(2) These factors (which Lefebvre calls deontological) are related to the human ability to perceive and evaluate oneself and others. Deontological factors are influenced by the pressure of the social environment, as well as by individual's intentions and self-perception.
+(3) Humans are capable of making automatic (unconscious, algorithmic) evaluations of themselves, people, objects, and actions as well as others perceptions of themselves as "good" or "bad" (or perhaps as being "better" or "worse" than other ones).
+(4) Humans strive to achieve the highest possible measure of such evaluation.
+
+To develop a formal model of this automatic ethical reasoning, Lefebvre applies a modified version of the Boolean algebra where the traditional logical interpretations of the two values are replaced with an ethical interpretation (i.e. 'good' and 'evil' instead of 'true' and 'false'). Building on the standard Boolean formalism and several intuitive postulates, Lefebvre develops a simple but powerful formal mechanism enabling a researcher to define and measure factors that determine moral choice. Applying this formalism to human interaction, Lefebvre shows that there are exactly two non-contradictory ways of evaluating social behavior based on the ethical values assigned to specific Boolean operations. 

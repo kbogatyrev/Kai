@@ -1,0 +1,15 @@
+							Remaining Issues
+							----------------
+
+				fast		slow       actual
+				-----------------------------------------
+ - keydn/caret			 40          	60		43		
+ - selection			 70		100 		50 (static sel)
+
+ - ins/del			 40		 60
+ - block ins/del		 40		 60
+ - clipboard 			 40		 60
+ - UI				 40		 60
+ - qa				 80		120			 4.5
+                   ------------------------------------------
+						350			520

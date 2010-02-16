@@ -1,0 +1,60 @@
+unsigned char *walf= " ê-íîñéäåæ¦è£ç¡§ï¬ã¤ë©¯«ª¢ìáà­¥¨â ®";
+	      /*          ^      32 char alphabet       ^    */
+
+
+/*****************************************************************************
+*                         ***  Z A L / S C  ***
+*  --------------------------------------------------------------------------
+*       Filename: sc_glvar.c
+*       Procname: none
+*       Status: include file
+*       Function: global variables for SC
+*       NB: Include this file in the MAIN proc
+*  --------------------------------------------------------------------------
+*       Last update 11-15-92
+*****************************************************************************/
+struct listmem  /* linked list(s) representing endings */
+  {
+    unsigned char bukva;
+    struct listmem *next[MAXNEXT];
+    int  num_next;
+  };
+struct listmem list[MAXENDLIST];
+
+int numlists;  /* num. of linked lists (=last letters) - 1  */
+
+struct
+  {
+    char *endstring[MAXHYPS];  /* pointers to ending gr. descriptors  */
+    int  num;     /* num. of strings compatible with current word form */
+    short end_length[MAXHYPS];
+  }  stem_splits;
+
+unsigned char *word="                                    ";
+		/* copy of the word form to analyze (must be a 0-termi-
+		   nated string)  */
+
+struct stemfilemap
+  {
+    unsigned int num_keys;     /* num. of keys in a block */
+    unsigned short keylen;     /* key length for current block */
+    unsigned char first_key[MAXKEYLEN];  /* 1st key in block, compressed */
+    unsigned long start_offs;  /* offs. to current map in the stem file */
+    unsigned int blk_length;
+  } map[MAXENTRIES];  /* one for each block */
+
+int numseg;  /* total number of blocks in stemfile */
+int curseg;  /* num of the block currently in mem., -1 if no block read */
+
+int init_offs;  /* offset to the main section of the stemfile */
+unsigned short curkeylen;
+unsigned char *curstem;
+
+int seek_stem_result;
+
+unsigned char *keys;   /* buffers for stems and entries */
+
+unsigned char *walf= " ê-íîñéäåæ¦è£ç¡§ï¬ã¤ë©¯«ª¢ìáà­¥¨â ®";
+	      /*          ^      32 char alphabet       ^    */
+
+FILE *stemfile;

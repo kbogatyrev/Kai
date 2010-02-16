@@ -1,0 +1,722 @@
+// Microsoft Visual C++ generated resource script.
+//
+#include "KaiResource.h"
+
+#define APSTUDIO_READONLY_SYMBOLS
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 2 resource.
+//
+#include "afxres.h"
+
+/////////////////////////////////////////////////////////////////////////////
+#undef APSTUDIO_READONLY_SYMBOLS
+
+/////////////////////////////////////////////////////////////////////////////
+// English (U.S.) resources
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE LANG_ENGLISH, SUBLANG_ENGLISH_US
+#pragma code_page(1252)
+#endif //_WIN32
+
+#ifdef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// TEXTINCLUDE
+//
+
+1 TEXTINCLUDE 
+BEGIN
+    "KaiResource.h\0"
+END
+
+2 TEXTINCLUDE 
+BEGIN
+    "#include ""afxres.h""\r\n"
+    "\0"
+END
+
+3 TEXTINCLUDE 
+BEGIN
+    "#define _AFX_NO_SPLITTER_RESOURCES\r\n"
+    "#define _AFX_NO_OLE_RESOURCES\r\n"
+    "#define _AFX_NO_TRACKER_RESOURCES\r\n"
+    "#define _AFX_NO_PROPERTY_RESOURCES\r\n"
+    "\r\n"
+    "#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)\r\n"
+    "#ifdef _WIN32\r\n"
+    "LANGUAGE 9, 1\r\n"
+    "#pragma code_page(1252)\r\n"
+    "#endif //_WIN32\r\n"
+    "#include ""res\\KaiUI.rc2""  // non-Microsoft Visual C++ edited resources\r\n"
+    "#include ""afxres.rc""         // Standard components\r\n"
+    "#include ""afxprint.rc""       // printing/print preview resources\r\n"
+    "#endif\r\n"
+    "\0"
+END
+
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Icon
+//
+
+// Icon with lowest ID value placed first to ensure application icon
+// remains consistent on all systems.
+IDR_MAINFRAME           ICON                    "res\\Mainframe.ico"
+IDR_KAITYPE             ICON                    "res\\KaiDoc.ico"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Bitmap
+//
+
+IDR_MAINFRAME           BITMAP                  "res\\Toolbar.bmp"
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Toolbar
+//
+
+IDR_MAINFRAME TOOLBAR  16, 15
+BEGIN
+    BUTTON      ID_FILE_NEW
+    BUTTON      ID_FILE_OPEN
+    BUTTON      ID_FILE_SAVE
+    SEPARATOR
+    BUTTON      ID_EDIT_CUT
+    BUTTON      ID_EDIT_COPY
+    BUTTON      ID_EDIT_PASTE
+    SEPARATOR
+    BUTTON      ID_FILE_PRINT
+    SEPARATOR
+    BUTTON      ID_APP_ABOUT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Menu
+//
+
+IDR_MAINFRAME MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM SEPARATOR
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1, GRAYED
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "Tools", GRAYED
+    BEGIN
+        MENUITEM "Ascii Decoder",               ID_TOOLS_ASCIIDECODER, INACTIVE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Kai...",               ID_APP_ABOUT
+    END
+END
+
+IDR_KAITYPE MENU 
+BEGIN
+    POPUP "&File"
+    BEGIN
+        MENUITEM "&New\tCtrl+N",                ID_FILE_NEW
+        MENUITEM "&Open...\tCtrl+O",            ID_FILE_OPEN
+        MENUITEM "&Close",                      ID_FILE_CLOSE
+        MENUITEM "&Save\tCtrl+S",               ID_FILE_SAVE
+        MENUITEM "Save &As...",                 ID_FILE_SAVE_AS
+        MENUITEM SEPARATOR
+        MENUITEM "&Print...\tCtrl+P",           ID_FILE_PRINT
+        MENUITEM "Print Pre&view",              ID_FILE_PRINT_PREVIEW, INACTIVE
+        MENUITEM "P&rint Setup...",             ID_FILE_PRINT_SETUP
+        MENUITEM SEPARATOR
+        MENUITEM "Recent File",                 ID_FILE_MRU_FILE1
+        MENUITEM SEPARATOR
+        MENUITEM "E&xit",                       ID_APP_EXIT
+    END
+    POPUP "&Edit"
+    BEGIN
+        MENUITEM "&Undo\tCtrl+Z",               ID_EDIT_UNDO
+        MENUITEM SEPARATOR
+        MENUITEM "Cu&t\tCtrl+X",                ID_EDIT_CUT
+        MENUITEM "&Copy\tCtrl+C",               ID_EDIT_COPY
+        MENUITEM "&Paste\tCtrl+V",              ID_EDIT_PASTE
+        MENUITEM "&Clear\tDel",                 ID_EDIT_DELETE
+        MENUITEM SEPARATOR
+        MENUITEM "Select &All\tCtrl+A",         ID_EDIT_SELECT_ALL
+        MENUITEM SEPARATOR
+        POPUP "&Find and Replace"
+        BEGIN
+            MENUITEM "&Find...\tCtrl+F",            ID_FINDANDREPLACE_FIND
+            MENUITEM "R&eplace...\tCtrl+H",         ID_FINDANDREPLACE_REPLACE
+        END
+    END
+    POPUP "&View"
+    BEGIN
+        MENUITEM "&Toolbar",                    ID_VIEW_TOOLBAR
+        MENUITEM "&Status Bar",                 ID_VIEW_STATUS_BAR
+    END
+    POPUP "&Insert"
+    BEGIN
+        MENUITEM "&Diacritics\tAlt+D",          ID_INSERT_DIACRITIC_MENU
+    END
+    POPUP "F&ormat"
+    BEGIN
+        MENUITEM "&Font",                       ID_FORMAT_FONT
+        MENUITEM "&Paragraph",                  ID_FORMAT_PARAGRAPH
+    END
+    POPUP "&Tools", GRAYED
+    BEGIN
+        MENUITEM "Ascii &Decoder",              ID_TOOLS_ASCIIDECODER_VIEW, GRAYED
+        MENUITEM "&Accentuate",                 ID_TOOLS_ACCENTUATE, GRAYED
+        MENUITEM "T&ranscribe",                 ID_TOOLS_TRANSCRIBE, GRAYED
+    END
+    POPUP "&Window"
+    BEGIN
+        MENUITEM "&New Window",                 ID_WINDOW_NEW
+        MENUITEM "&Cascade",                    ID_WINDOW_CASCADE
+        MENUITEM "&Tile",                       ID_WINDOW_TILE_HORZ
+        MENUITEM "&Arrange Icons",              ID_WINDOW_ARRANGE
+    END
+    POPUP "&Help"
+    BEGIN
+        MENUITEM "&About Kai...",               ID_APP_ABOUT
+    END
+END
+
+IDR_CONTEXT MENU 
+BEGIN
+    POPUP "CONTEXT"
+    BEGIN
+        MENUITEM "Cu&t",                        ID_CONTEXT_CUT
+        MENUITEM "&Copy",                       ID_CONTEXT_COPY
+        MENUITEM "&Paste",                      ID_CONTEXT_PASTE
+        MENUITEM SEPARATOR
+        MENUITEM "&Paragraph",                  ID_CONTEXT_PARAGRAPH
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Accelerator
+//
+
+IDR_MAINFRAME ACCELERATORS 
+BEGIN
+    VK_BACK,        ID_BACK,                VIRTKEY, NOINVERT
+    VK_DELETE,      ID_DELETE,              VIRTKEY, NOINVERT
+    VK_DOWN,        ID_DOWN,                VIRTKEY, NOINVERT
+    "C",            ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_COPY,           VIRTKEY, CONTROL, NOINVERT
+    VK_DELETE,      ID_EDIT_CUT,            VIRTKEY, SHIFT, NOINVERT
+    "X",            ID_EDIT_CUT,            VIRTKEY, CONTROL, NOINVERT
+    "V",            ID_EDIT_PASTE,          VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_EDIT_PASTE,          VIRTKEY, SHIFT, NOINVERT
+    "A",            ID_EDIT_SELECT_ALL,     VIRTKEY, CONTROL, NOINVERT
+    VK_BACK,        ID_EDIT_UNDO,           VIRTKEY, ALT, NOINVERT
+    "Z",            ID_EDIT_UNDO,           VIRTKEY, CONTROL, NOINVERT
+    VK_END,         ID_END,                 VIRTKEY, NOINVERT
+    "N",            ID_FILE_NEW,            VIRTKEY, CONTROL, NOINVERT
+    "O",            ID_FILE_OPEN,           VIRTKEY, CONTROL, NOINVERT
+    "P",            ID_FILE_PRINT,          VIRTKEY, CONTROL, NOINVERT
+    "S",            ID_FILE_SAVE,           VIRTKEY, CONTROL, NOINVERT
+    "F",            ID_FINDANDREPLACE_FIND, VIRTKEY, CONTROL, NOINVERT
+    "H",            ID_FINDANDREPLACE_REPLACE, VIRTKEY, CONTROL, NOINVERT
+    VK_HOME,        ID_HOME,                VIRTKEY, NOINVERT
+    VK_LEFT,        ID_LEFT,                VIRTKEY, NOINVERT
+    VK_F6,          ID_NEXT_PANE,           VIRTKEY, NOINVERT
+    VK_NEXT,        ID_PGDN,                VIRTKEY, NOINVERT
+    VK_PRIOR,       ID_PGUP,                VIRTKEY, NOINVERT
+    VK_F6,          ID_PREV_PANE,           VIRTKEY, SHIFT, NOINVERT
+    VK_RIGHT,       ID_RIGHT,               VIRTKEY, NOINVERT
+    VK_END,         ID_SCROLL_TO_BOTTOM,    VIRTKEY, CONTROL, NOINVERT
+    VK_HOME,        ID_SCROLL_TO_TOP,       VIRTKEY, CONTROL, NOINVERT
+    VK_DOWN,        ID_SELECT_DOWN,         VIRTKEY, SHIFT, NOINVERT
+    VK_LEFT,        ID_SELECT_LEFT,         VIRTKEY, SHIFT, NOINVERT
+    VK_NEXT,        ID_SELECT_PGDN,         VIRTKEY, SHIFT, NOINVERT
+    VK_RIGHT,       ID_SELECT_RIGHT,        VIRTKEY, SHIFT, NOINVERT
+    VK_END,         ID_SELECT_TO_BOTTOM,    VIRTKEY, SHIFT, CONTROL, NOINVERT
+    VK_END,         ID_SELECT_TO_END,       VIRTKEY, SHIFT, NOINVERT
+    VK_HOME,        ID_SELECT_TO_HOME,      VIRTKEY, SHIFT, NOINVERT
+    VK_HOME,        ID_SELECT_TO_TOP,       VIRTKEY, SHIFT, CONTROL, NOINVERT
+    VK_UP,          ID_SELECT_UP,           VIRTKEY, SHIFT, NOINVERT
+    "B",            ID_TO_BOLD,             VIRTKEY, CONTROL, NOINVERT
+    "I",            ID_TO_ITALIC,           VIRTKEY, CONTROL, NOINVERT
+    "U",            ID_TO_UNDERLINE,        VIRTKEY, CONTROL, NOINVERT
+    VK_INSERT,      ID_TOGGLE_INSERT,       VIRTKEY, NOINVERT
+    VK_UP,          ID_UP,                  VIRTKEY, NOINVERT
+    VK_LEFT,        ID_WORD_LEFT,           VIRTKEY, CONTROL, NOINVERT
+    VK_RIGHT,       ID_WORD_RIGHT,          VIRTKEY, CONTROL, NOINVERT
+    "D",            ID_INSERT_DIACRITIC_KEY, VIRTKEY, ALT, NOINVERT
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog
+//
+
+IDD_ABOUTBOX DIALOGEX 0, 0, 275, 90
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "About Kai"
+FONT 8, "MS Sans Serif", 0, 0, 0x0
+BEGIN
+    ICON            IDR_MAINFRAME,IDC_STATIC,15,12,20,20
+    LTEXT           "?a?, a Linguistic Data Editor, Alpha Version",IDC_STATIC_VERSION,52,11,204,10,SS_NOPREFIX
+    LTEXT           "Copyright (C) Konstantin K. Bogatyrev, 2008",IDC_STATIC_COPYRIGHT,12,64,148,8
+    DEFPUSHBUTTON   "OK",IDOK,180,62,81,16,WS_GROUP
+    LTEXT           "This program is dedicated to the memory of  Aleksandr Kaidanovsky, 1946 - 1995",IDC_STATIC,12,45,262,15
+    LTEXT           "Build: 1, 0, 0, 0,",IDC_STATIC_BUILD,52,27,152,10,SS_NOPREFIX
+END
+
+IDD_TRACE_WINDOW DIALOG  0, 0, 371, 202
+STYLE DS_SETFONT | DS_MODALFRAME | WS_MINIMIZEBOX | WS_MAXIMIZEBOX | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Dialog"
+FONT 8, "MS Sans Serif"
+BEGIN
+    EDITTEXT        IDC_TRACE_EDIT,7,6,357,189,ES_AUTOHSCROLL
+END
+
+IDD_SEARCH_DLG DIALOGEX 0, 0, 337, 159
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | DS_CENTER | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Find"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    COMBOBOX        IDC_COMBO_FIND_WHAT,54,6,220,77,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    DEFPUSHBUTTON   "&Find Next",IDOK,280,6,50,14,WS_DISABLED
+    PUSHBUTTON      "Close",IDCANCEL,280,22,50,14
+    CONTROL         "Match &whole word only",IDC_CHECK_MATCH_WHOLE_WORD,
+                    "Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,29,89,10
+    CONTROL         "Match &case",IDC_CHECK_MATCH_CASE,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,41,52,10
+    CONTROL         "&Ignore diacritics",IDC_CHECK_IGNORE_DIACRITICS,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,53,67,10
+    CONTROL         "&Boolean search",IDC_CHECK_BOOLEAN_SEARCH,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,109,36,65,10
+    CONTROL         "&Regular expression",IDC_CHECK_REGEX,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,109,48,82,11
+    CONTROL         "&Up",IDC_RADIO_UP,"Button",BS_AUTORADIOBUTTON,229,37,25,10
+    CONTROL         "&Down",IDC_RADIO_DOWN,"Button",BS_AUTORADIOBUTTON,229,52,34,10
+    EDITTEXT        IDC_EDIT_ENTER_TERM,50,89,273,14,ES_AUTOHSCROLL
+    PUSHBUTTON      "AND",IDC_BUTTON_AND,10,111,31,14
+    PUSHBUTTON      "OR",IDC_BUTTON_OR,53,111,31,14
+    PUSHBUTTON      "NOT",IDC_BUTTON_NOT,96,111,31,14
+    PUSHBUTTON      "(",IDC_BUTTON_LP,142,111,15,14
+    PUSHBUTTON      ")",IDC_BUTTON_RP,163,111,15,14
+    PUSHBUTTON      "Clear",IDC_BUTTON_CLEAR,193,111,34,14
+    PUSHBUTTON      "Back",IDC_BUTTON_START_OVER,239,111,36,14
+    PUSHBUTTON      "Done",IDC_BUTTON_BOOLSEARCH,287,111,36,14
+    COMBOBOX        IDC_PROXIMITY_COMBO,84,132,35,119,CBS_DROPDOWNLIST | WS_VSCROLL | WS_TABSTOP
+    CONTROL         "Words",IDC_RADIO_PROXIMITY_WORDS,"Button",BS_AUTORADIOBUTTON | WS_GROUP,131,134,37,10
+    CONTROL         "Sentences",IDC_RADIO_PROXIMITY_SENTENCES,"Button",BS_AUTORADIOBUTTON,180,134,49,10
+    CONTROL         "Paragraphs",IDC_RADIO_PROXIMITY_PARAGRAPHS,"Button",BS_AUTORADIOBUTTON,241,134,53,10
+    LTEXT           "Fi&nd what:",IDC_STATIC_FIND_WHAT,8,8,44,14
+    GROUPBOX        "Direction",IDC_STATIC_DIRECTION,190,26,82,43
+    LTEXT           "Enter term:",IDC_STATIC_ENTER_TERM,8,91,38,8
+    GROUPBOX        "Boolean search",IDC_STATIC_BOOL,4,74,326,80
+    LTEXT           "Invisible Separator",IDC_STATIC_SEPARATOR,4,69,326,8,NOT WS_VISIBLE
+    LTEXT           "Search within",IDC_STATIC_WITHIN,28,134,44,8
+    PUSHBUTTON      "Replace",ID_REPLACE,280,38,50,14
+    PUSHBUTTON      "Replace all",ID_REPLACE_ALL,280,54,50,14,WS_DISABLED
+END
+
+IDD_FORMAT_PARAGRAPH DIALOGEX 0, 0, 307, 121
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Paragraph"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    LTEXT           "Ali&gnment:",IDC_STATIC,19,15,36,8
+    COMBOBOX        IDC_ALIGNMENT_COMBO,61,14,70,41,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Indentation",IDC_STATIC,158,12,142,83
+    LTEXT           "&Left:",IDC_STATIC,197,35,16,8
+    EDITTEXT        IDC_LEFT_INDENT_EDIT,220,33,60,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_LEFT_INDENT_SPIN,"msctls_updown32",UDS_AUTOBUDDY | UDS_ARROWKEYS,279,33,12,14
+    LTEXT           "&Right:",IDC_STATIC,193,64,20,8
+    EDITTEXT        IDC_RIGHT_INDENT_EDIT,221,62,60,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_RIGHT_INDENT_SPIN,"msctls_updown32",UDS_AUTOBUDDY | UDS_ARROWKEYS,279,62,12,14
+    DEFPUSHBUTTON   "OK",IDOK,198,102,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,250,102,50,14
+    LTEXT           "Li&nes:",IDC_STATIC,52,52,20,8
+    EDITTEXT        IDC_LINE_SPACE_EDIT,65,70,60,14,ES_AUTOHSCROLL
+    CONTROL         "",IDC_LINE_SPACE_SPIN,"msctls_updown32",UDS_AUTOBUDDY | UDS_ARROWKEYS,125,70,12,14
+    LTEXT           "&At:",IDC_STATIC,52,73,11,8
+    COMBOBOX        IDC_LINE_SPACE_COMBO,89,49,48,67,CBS_DROPDOWN | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Line spacing",IDC_STATIC,7,35,142,60
+END
+
+IDD_SELECT_LANGUAGE_DLG DIALOGEX 0, 0, 189, 55
+STYLE DS_SETFONT | DS_MODALFRAME | DS_FIXEDSYS | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Select the language"
+FONT 8, "MS Shell Dlg", 400, 0, 0x1
+BEGIN
+    DEFPUSHBUTTON   "OK",IDOK,131,14,50,14
+    PUSHBUTTON      "Cancel",IDCANCEL,131,29,50,14
+    COMBOBOX        IDC_LANGUAGE_COMBO,8,24,110,30,CBS_DROPDOWN | CBS_SORT | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Please select the language:",IDC_CAPTION,8,11,99,9
+END
+
+IDD_KAI_FONT_DIALOG DIALOGEX 13, 54, 287, 196
+STYLE DS_SETFONT | DS_MODALFRAME | DS_3DLOOK | DS_FIXEDSYS | DS_CONTEXTHELP | WS_POPUP | WS_CAPTION | WS_SYSMENU
+CAPTION "Font"
+FONT 8, "MS Shell Dlg", 0, 0, 0x1
+BEGIN
+    LTEXT           "&Font:",1088,7,7,40,9
+    COMBOBOX        1136,7,16,98,76,CBS_SIMPLE | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "Font st&yle:",1089,110,7,44,9
+    COMBOBOX        1137,110,16,74,76,CBS_SIMPLE | CBS_AUTOHSCROLL | WS_VSCROLL | WS_TABSTOP
+    LTEXT           "&Size:",1090,189,7,30,9
+    COMBOBOX        1138,190,16,36,76,CBS_SIMPLE | CBS_OWNERDRAWFIXED | CBS_AUTOHSCROLL | CBS_SORT | CBS_HASSTRINGS | CBS_DISABLENOSCROLL | WS_VSCROLL | WS_TABSTOP
+    GROUPBOX        "Effects",1072,7,97,98,43,WS_GROUP
+    CONTROL         "Stri&keout",1040,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,110,49,10
+    CONTROL         "&Underline",1041,"Button",BS_AUTOCHECKBOX | WS_TABSTOP,13,123,51,10
+    GROUPBOX        "Sample",1073,110,97,116,43,WS_GROUP
+    CTEXT           "AaBbYyZz",1092,118,111,100,23,SS_NOPREFIX | NOT WS_VISIBLE
+    DEFPUSHBUTTON   "OK",IDOK,231,16,45,14,WS_GROUP
+    PUSHBUTTON      "Cancel",IDCANCEL,231,32,45,14,WS_GROUP
+    PUSHBUTTON      "&Apply",1026,231,48,45,14,WS_GROUP
+    PUSHBUTTON      "&Help",1038,231,64,45,14,WS_GROUP
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Version
+//
+
+VS_VERSION_INFO VERSIONINFO
+ FILEVERSION 1,4,0,1
+ PRODUCTVERSION 1,4,0,1
+ FILEFLAGSMASK 0x3fL
+#ifdef _DEBUG
+ FILEFLAGS 0x1L
+#else
+ FILEFLAGS 0x0L
+#endif
+ FILEOS 0x4L
+ FILETYPE 0x1L
+ FILESUBTYPE 0x0L
+BEGIN
+    BLOCK "StringFileInfo"
+    BEGIN
+        BLOCK "040904b0"
+        BEGIN
+            VALUE "Comments", "alpha"
+            VALUE "CompanyName", "Ling Ling San Software"
+            VALUE "FileDescription", "Kai, a linguistic text editor"
+            VALUE "FileVersion", "1, 4, 0, 1"
+            VALUE "InternalName", "Kai UI"
+            VALUE "LegalCopyright", "© Konstantin K. Bogatyrev, 2009"
+            VALUE "OriginalFilename", "Kai.exe"
+            VALUE "ProductName", "Kai"
+            VALUE "ProductVersion", "1, 4, 0, 1"
+        END
+    END
+    BLOCK "VarFileInfo"
+    BEGIN
+        VALUE "Translation", 0x409, 1200
+    END
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// DESIGNINFO
+//
+
+#ifdef APSTUDIO_INVOKED
+GUIDELINES DESIGNINFO 
+BEGIN
+    IDD_ABOUTBOX, DIALOG
+    BEGIN
+        RIGHTMARGIN, 273
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 83
+    END
+
+    IDD_TRACE_WINDOW, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 364
+        TOPMARGIN, 6
+        BOTTOMMARGIN, 195
+    END
+
+    IDD_SEARCH_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 4
+        RIGHTMARGIN, 330
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 153
+    END
+
+    IDD_FORMAT_PARAGRAPH, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 300
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 116
+    END
+
+    IDD_SELECT_LANGUAGE_DLG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 182
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 48
+    END
+
+    IDD_KAI_FONT_DIALOG, DIALOG
+    BEGIN
+        LEFTMARGIN, 7
+        RIGHTMARGIN, 180
+        TOPMARGIN, 7
+        BOTTOMMARGIN, 84
+    END
+END
+#endif    // APSTUDIO_INVOKED
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// Dialog Info
+//
+
+IDD_SELECT_LANGUAGE_DLG DLGINIT
+BEGIN
+    IDC_LANGUAGE_COMBO, 0x403, 8, 0
+0x7552, 0x7373, 0x6169, 0x006e, 
+    0
+END
+
+
+/////////////////////////////////////////////////////////////////////////////
+//
+// String Table
+//
+
+STRINGTABLE 
+BEGIN
+    IDR_MAINFRAME           "Kai"
+    IDR_KAITYPE             "\nKai\nKai\nKai Files (*.kai)\n.kai\nKai.Document\nKai Document"
+    IDS_LINE_SPACING_AUTO   "Auto"
+    IDS_LINE_SPACING_SINGLE "Single"
+    IDS_LINE_SPACING_1_5    "1.5"
+    IDS_LINE_SPACING_DOUBLE "Double"
+    IDS_LINE_SPACING_EXACT  "Exactly"
+END
+
+STRINGTABLE 
+BEGIN
+    IDS_LINE_SPACING_MULTIPLE "Multiple"
+    ID_FORMAT_PARAGRAPH     "Format paragraph"
+    ID_INSERT_DIACRITICS    "Insert diacritic"
+    ID_EDIT_DELETE          "Delete selected text without putting it on the clipboard\nDelete"
+    IDR_WATERMARK           "In Memoriam Alexandri Kaidanovskii, 1946-1995."
+    IDS_ALIGNMENT_LEFT      "Left"
+    IDS_ALIGNMENT_RIGHT_JUSTIFY "Justify"
+    ID_FINDANDREPLACE_FIND  "Search for specified text\nFind"
+    ID_FINDANDREPLACE_REPLACE "Search and replace specified text\nReplace"
+    IDS_ALIGNMENT_CENTER    "Center"
+    IDS_ALIGNMENT_RIGHT     "Right"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_APP_TITLE       "Kai"
+    AFX_IDS_IDLEMESSAGE     "  "
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INDICATOR_EXT        "EXT"
+    ID_INDICATOR_CAPS       "CAP"
+    ID_INDICATOR_NUM        "NUM"
+    ID_INDICATOR_SCRL       "SCRL"
+    ID_INDICATOR_OVR        "OVR"
+    ID_INDICATOR_REC        "REC"
+    ID_INDICATOR_PROGRESS   "                                                          "
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_NEW             "Create a new document\nNew"
+    ID_FILE_OPEN            "Open an existing document\nOpen"
+    ID_FILE_CLOSE           "Close the active document\nClose"
+    ID_FILE_SAVE            "Save the active document\nSave"
+    ID_FILE_SAVE_AS         "Save the active document with a new name\nSave As"
+    ID_FILE_PAGE_SETUP      "Change the printing options\nPage Setup"
+    ID_FILE_PRINT_SETUP     "Change the printer and printing options\nPrint Setup"
+    ID_FILE_PRINT           "Print the active document\nPrint"
+    ID_FILE_PRINT_PREVIEW   "Display full pages\nPrint Preview"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_APP_ABOUT            "Display program information, version number and copyright\nAbout"
+    ID_APP_EXIT             "Quit the application; prompts to save documents\nExit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FILE_MRU_FILE1       "Open this document"
+    ID_FILE_MRU_FILE2       "Open this document"
+    ID_FILE_MRU_FILE3       "Open this document"
+    ID_FILE_MRU_FILE4       "Open this document"
+    ID_FILE_MRU_FILE5       "Open this document"
+    ID_FILE_MRU_FILE6       "Open this document"
+    ID_FILE_MRU_FILE7       "Open this document"
+    ID_FILE_MRU_FILE8       "Open this document"
+    ID_FILE_MRU_FILE9       "Open this document"
+    ID_FILE_MRU_FILE10      "Open this document"
+    ID_FILE_MRU_FILE11      "Open this document"
+    ID_FILE_MRU_FILE12      "Open this document"
+    ID_FILE_MRU_FILE13      "Open this document"
+    ID_FILE_MRU_FILE14      "Open this document"
+    ID_FILE_MRU_FILE15      "Open this document"
+    ID_FILE_MRU_FILE16      "Open this document"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_NEXT_PANE            "Switch to the next window pane\nNext Pane"
+    ID_PREV_PANE            "Switch back to the previous window pane\nPrevious Pane"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_WINDOW_NEW           "Open another window for the active document\nNew Window"
+    ID_WINDOW_ARRANGE       "Arrange icons at the bottom of the window\nArrange Icons"
+    ID_WINDOW_CASCADE       "Arrange windows so they overlap\nCascade Windows"
+    ID_WINDOW_TILE_HORZ     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_TILE_VERT     "Arrange windows as non-overlapping tiles\nTile Windows"
+    ID_WINDOW_SPLIT         "Split the active window into panes\nSplit"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_EDIT_CLEAR           "Erase the selection\nErase"
+    ID_EDIT_CLEAR_ALL       "Erase everything\nErase All"
+    ID_EDIT_COPY            "Copy the selection and put it on the Clipboard\nCopy"
+    ID_EDIT_CUT             "Cut the selection and put it on the Clipboard\nCut"
+    ID_EDIT_FIND            "Find the specified text\nFind"
+    ID_EDIT_PASTE           "Insert Clipboard contents\nPaste"
+    ID_EDIT_REPEAT          "Repeat the last action\nRepeat"
+    ID_EDIT_REPLACE         "Replace specific text with different text\nReplace"
+    ID_EDIT_SELECT_ALL      "Select the entire document\nSelect All"
+    ID_EDIT_UNDO            "Undo the last action\nUndo"
+    ID_EDIT_REDO            "Redo the previously undone action\nRedo"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_VIEW_TOOLBAR         "Show or hide the toolbar\nToggle ToolBar"
+    ID_VIEW_STATUS_BAR      "Show or hide the status bar\nToggle StatusBar"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCSIZE          "Change the window size"
+    AFX_IDS_SCMOVE          "Change the window position"
+    AFX_IDS_SCMINIMIZE      "Reduce the window to an icon"
+    AFX_IDS_SCMAXIMIZE      "Enlarge the window to full size"
+    AFX_IDS_SCNEXTWINDOW    "Switch to the next document window"
+    AFX_IDS_SCPREVWINDOW    "Switch to the previous document window"
+    AFX_IDS_SCCLOSE         "Close the active window and prompts to save the documents"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_SCRESTORE       "Restore the window to normal size"
+    AFX_IDS_SCTASKLIST      "Activate Task List"
+    AFX_IDS_MDICHILD        "Activate this window"
+END
+
+STRINGTABLE 
+BEGIN
+    AFX_IDS_PREVIEW_CLOSE   "Close print preview mode\nCancel Preview"
+    ID_TOGGLE_INSERT        "Insert/Overstrike mode"
+END
+
+STRINGTABLE 
+BEGIN
+    READ_ERROR              "Error reading input file"
+    READ_ERROR_VERSION      "Error reading input file version"
+    READ_ERROR_WATERMARK    "Error reading input file header"
+    WRITE_ERROR             "Error writing output file"
+END
+
+STRINGTABLE 
+BEGIN
+    IMPORT_ERROR_SEEK       "Error resetting input file for text import"
+    IMPORT_ERROR_READ       "Error reading imported file"
+    REG_ERROR_OPENKEY       "Error opening Registry key"
+    REG_ERROR_ENUMKEY       "Error accessing Registry keys"
+    REG_ERROR_QUERYKEY      "Error obtaining Registry key information"
+END
+
+STRINGTABLE 
+BEGIN
+    REG_ERROR_SETVALUE      "Error writing Registry key value"
+    REG_ERROR_CREATEKEY     "Error creating Registry key"
+    REG_ERROR_KEY_EXISTS    "Error creating Registry key: duplicate key"
+END
+
+STRINGTABLE 
+BEGIN
+    MISC_ERROR_BAD_TIME_STR "Unable to obtain local time"
+    MISC_ERROR_LOGFILE_CREATE "Error creating log file"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_INSERT_DIACRITIC_MENU "Put diacritic mark over the current character"
+    ID_TOOLS_TRANSCRIBE     "Transcribe the current document"
+    ID_TOOLS_ACCENTUATE     "Mark stress in the current document"
+    ID_TOOLS_ASCIIDECODER_VIEW "Read and import ASCII text file"
+END
+
+STRINGTABLE 
+BEGIN
+    ID_FORMAT_FONT          "Change font"
+END
+
+#endif    // English (U.S.) resources
+/////////////////////////////////////////////////////////////////////////////
+
+
+
+#ifndef APSTUDIO_INVOKED
+/////////////////////////////////////////////////////////////////////////////
+//
+// Generated from the TEXTINCLUDE 3 resource.
+//
+#define _AFX_NO_SPLITTER_RESOURCES
+#define _AFX_NO_OLE_RESOURCES
+#define _AFX_NO_TRACKER_RESOURCES
+#define _AFX_NO_PROPERTY_RESOURCES
+
+#if !defined(AFX_RESOURCE_DLL) || defined(AFX_TARG_ENU)
+#ifdef _WIN32
+LANGUAGE 9, 1
+#pragma code_page(1252)
+#endif //_WIN32
+#include "res\KaiUI.rc2"  // non-Microsoft Visual C++ edited resources
+#include "afxres.rc"         // Standard components
+#include "afxprint.rc"       // printing/print preview resources
+#endif
+
+/////////////////////////////////////////////////////////////////////////////
+#endif    // not APSTUDIO_INVOKED
+

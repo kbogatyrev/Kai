@@ -1,0 +1,113 @@
+Add Edit\To Upper
+========== TODO in 1.4. ==========
+*** done 1. Switch to new MFC
+*** done 2. Do not invoke AsciiDecoder if import file has only low 127 chars
+*** Can't repro 3. Select text, invoke ascii decoder -- what's that??
+*** 5. Regex?
+*** done 6. Print preview?
+7. Kai must be default app for files with .kai extension.
+8. When Kai is invoked via windows explorer, show UI before reading/converting file.
+*** Done 9. Save as text file.
+*** No standalone Ascii decode in 1.4. 10. Ascii Decoder -- show progress.
+11. Kai window hidden when ascii decoder goes away.
+*** No standalone Ascii decode in 1.4. 12. Ascii Decoder: Remember last directory.
+13. Ascii Decoder: Show file name in dialog (and in save As??)
+14. Ascii Decoder: Change buttons when done.
+15. Setup: WARNING: Item 'Windows Installer 3.1' is required by '.NET Framework 3.5', but was not included.
+*** Probably intended behavior -- the original file is added. 16. Converted file does not show in MRI.
+17. Ascii decoder in Tools menu item??
+
+=========== OTHER ISSUES ============
+26. Write progress.
+25. Diacritics in print.
+24. Slowness with very long files.
+*** done 23. Verify handling of unreadable files.
+*** done 22. Progress bar for read/import.
+*** done 21. Supress view if document did not open; error handling for read errors.
+20. Space changes after a diacritic is added when justification is on.
+19. Search mode that ignores diacritics.
+18. Enter diacritics in search window.
+*** done Diacritics break justification? 
+*** done 1. Diacr font is hardcoded (LineDescriptor::ShowDiacritics)
+*** done Accelerate deletechar()
+*** done Paragraph formatting via menu (r-click menu works?).
+*** done CTRL/b for bold, CTRL/i for italics, CTRL/u for underline.
+*** When view size is less than page size curson does not change when leaving client area
+*** done Closing print preview closes doc view
+*** done 3. File modified/save dlg.; see bug #1; also save dlg on newly created docs
+*** done 4. File extension must be kai when saving text file
+*** done 5. Mark dirty file tiles with "*" on window frame.
+*** done 6. Diacritic input mode via hotkey.
+*** done Select whole word on dblclick
+8. Remember view wnd pos.
+9. Fix maximize weirdness in print preview
+*** done Allow moving right border of client rect to change paragraph width.
+*** Undo format changes & diacritics.
+*** done 11. Log files management: make them optional? compress/delete old ones? don't save empty ones?
+12. Create missing folders, e.g., Trace if needed.
+13. START_OVER btn in Boolean search.
+14. Add hiliting to single word search.
+*** UNABLE *** 15. RTF conversions?
+*** done 16. Install
+17. CT_KaiString ctor very inefficient -- optimize and/or minimize use
+
+========== BUGS =========
+46. Import text file, save as..., then close -- will be prompted to save again.
+45. Right border move should not reposition caret.
+44. [*** done] Make the width of the doc window less than line width, horiz. scroll to far right,
+    click and hold mouse on the down or up button of the vert scroll bar; part of the
+    screen is not repainted correctly.ii
+43. [*** done] Reset $ no. and line no. in display window whenever there is a chance that the number of
+    preceding lines had changed.
+42. [*** done] Undo paragraph formatting.
+41. Sometimes tracking line remains onscreen while the right border does not move.
+40. Entering diacritics over space repositions caret incorrectly.
+39. Verify all text changes set dirty flag.
+38. TextPos Validate() must throw exceptions.
+37. [*** done] Titles vanish after undo.
+36. [*** done] Caret not repositioned after right border move.
+35. Right border sometimes does not move after left button release; dashed line remains on screen.
+34. No caret move after reformatting (long?) $.
+33. [*** done] Crash while undoing very long lokens separated with punctuation (?)
+32. [*** done or can't repro] Left field in installed version.
+31. [*** can't repro] Enter text, hit Enter, then add a few more letters, insert diacritic; caret will jump to 
+    the left border
+30. In OVR mode, select a character, change font style, cancel selection, type over modified font, 
+    then undo; modified font will not be restored.
+29. Caret repositioning in OVR mode.
+28. Hitting ESC must undo incomplete command, e.g., Alt+D, then ESC removes request to insert diactiric
+27. [*** done] Select text segment, change font; with caret at font boundary, change font and insert 
+    a character. Kai will hang or crash.
+26. [*** can't repro] Insert character to the left of font boundary, then undo; the right char. will vanish.
+25. Implement shift/control
+24. [*** done] Don't allow diacr input at the last pos in paragraph (before eop character).
+23. [*** done] Document name in child window after a few changes/undo's.
+22. [?] Left margin not repainted.
+21. Try to move right border to the right of the narrowest position.
+20. Try to move right border when cursor is below the last line.
+19. No background repaint on the right when screen width changes.
+18. Undo does not remove selection restored by previous undo.
+17. [*** done] Insert diactiric, select character with diacritic, hit Delete, undo, repeate undo.
+16. [*** done] Fix modify font.
+15. Remove color from font selection dialog.
+[*** done] Flicker
+1.  [*** done] FileModified logic broken; dirty flag needs to be reset when file is saved; if a modified version was saved, emptying undo stack should not rset dirty flag;
+11. [*** done] "Save ???" dialog -- remove "*".
+12. Change extension when saving txt files as kai files; if a file with .kai extension does 
+    not check out as kai-format file, ask user if he wants to treat it as a text file.
+[*** done] Insert char before a char with a diacritic
+[*** done] Undo multi $$$ delete
+2. 1st line in NLP.kai
+[*** fixed or can't repro] 3. Paste a multi-paragraph text from Notepad: need to replace \n's with eop's
+[*** fixed or can't repro] 4. Enter doublequote into Notepad, cut and paste into Kai
+5. If total num of lines < screen height, make sure 1st line is visible
+6. Negative scroll offset
+7. Open BoolTest, move caret to end, hit enter, try to move caret down
+8. Bool proximity search -- within 1 sentence/paragraph
+9. Turn bool off -- see static not removed
+10. Selection with line spacing = 0.
+[*** done] Select several lines in a $, change font, scroll 1-2 pages down, scroll back up using mousewheel: only 1st line will be shown using new font.
+[*** done] Switch to print preview breaks justification
+[*** done] Select whole text with ctrl/a; change page indent; scroll; text that was below screen will show different indents.
+[*** done] Sections with changed font may arbitrarily change formatting.
+[*** done] Changed font means that file is dirty!

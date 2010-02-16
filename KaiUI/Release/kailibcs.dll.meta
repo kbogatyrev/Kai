@@ -1,0 +1,21 @@
+Assembly KaiLibCS, Version=1.0.*, Culture=Invariant Language (Invariant Country): 
+	hash=SHA1, flags=PublicKey
+Assembly mscorlib, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System.Windows.Forms, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Assembly System, Version=2.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089: 
+	hash=SHA1, flags=None
+Class KaiLibCS.DotNetWindowHandle: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(Int32): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Interfaces:
+    System.Windows.Forms.IWin32Window
+  Properties:
+    IntPtr Handle 'get ' : 
+  Methods:
+    get_Handle(): PrivateScope, Public, Final, Virtual, HideBySig, VtableLayoutMask, SpecialName
+Class KaiLibCS.MfcHelpers: AutoLayout, AnsiClass, Class, Public, BeforeFieldInit
+    Void .ctor(): PrivateScope, Public, HideBySig, SpecialName, RTSpecialName
+  Methods:
+    LogError(String): PrivateScope, Public, Static, HideBySig
+    GetRegistryPath(): PrivateScope, Public, Static, HideBySig

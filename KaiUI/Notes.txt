@@ -1,0 +1,77 @@
+   d = done
+   p = in progress
+   i = ignore
+
+1.   03-08-02	Don't save log file if it is empty.
+2. d 03-08-02	Screen blinks on initial display.
+	 It looks like it starts displaying the document, then refreshes the 
+	 screen again.
+	 Now it's gone. Don't know why.
+3. d 03-08-02	Optimize ShowLine().
+4.	 03-08-02	Add Copy Attributes function to KaiString.
+5.	 03-08-02	Set default paragraph style and default font via menu.
+6.	 03-08-02	View/ShowLine() - add center and right aligment.
+7. p 03-08-02	Unsigned int -> int unless necessary.
+	 1st pass finished
+8.   03-15-02	View/OnInitialUpdate: Have a dlg with progress bar to 
+	 show rendering progress; show 1st screen, then the progress dlg so
+	 that screen is not empty.
+9. d Flicker on resizig. Not too big a deal.
+	 Well this is actually a very big deal with large documents.
+	 See MS Systems Journal, May & July 1997. 
+	 It becomes annoying when the doc is about 18k or bigger. I still
+	 don't understand why since no re-rendering is required.
+	 -- Two thoughts: 1. STL may be doing smthng in the background.
+	    Condider moving away from STL? For strings only perhaps?
+	 -- Performance issue solved,flicker remains (4-16-02)
+10.d Replace V_StartTrace(), V_EndTrace() with conditionally compiled
+     macros.
+     07-2303
+11.  03-26-02	CView: move Display Window initialization out of
+	 CView::v_Init()
+12.d 04-07-02	Use a memory dc to minimize flicker on resizing. This may 
+	 require switching to SDI.
+13.d 04-09-02	Create CT_LineDescriptor::NextLine() and PrevLine methods.
+14.d 06-13-02	TAB? in WPL2.kai "PHASE I - Work plan..." is jumping as 
+                window is resized.
+				-- origin.cx was not reset on screen update. forced it to 0.
+				   hope it did not break anything
+15.  06-15-02	Hourglass when file is being red, also block input, 
+				progress, etc.
+16.	 06-16-02	Doc window does not remember ist size & pos.
+17.d 06-16-02   No default constructor for line descriptor.
+				-- done: 11-30-02
+18.  07-14-02	CT_Paragraph::render - diacr height is ignored.
+19.d 11-21-02   Device context needs to be released unless it belongs to
+                window class.
+20.  11-30-02	Lock input files when open.
+21.d 12-13-02	ScrollDown: garbage above the bottom line after scroll;
+     sometimes it disappears.
+22.  12-13-02	Scroll operations: Hide caret when it is scrolled out of 
+     display window.
+23.p 12-13-02   Verify that device context is always returned.
+24.d 12-13-02   Port to .NET/MFC 7.
+25.d 12-15-02   Looks like bottom line moves down by 1 pix after single line 
+     down scroll, cf. #21.
+				-- Looks better now (3-04-03)
+26.  12-15-02	Veryfy caret is hidden/destroyed as required by MS; it appears 
+	 that this should happen each time the app is losing focus.
+27.d 12-15-02   Verify VM_MOUSEWHEEL is handled.
+				-- It is at least under XP.		
+28.  12-30-02   Doc window not repainted when uncovered.
+29.d 03-04-03	Port to Unicode.
+	 07-23-03
+30.	 03-04-03	Repainting still a bit slow, some flicker when restoring 
+	 selection.
+31.  03-08-03	ScreenToCaretPos repositions caret - that should be separate from
+	 calculating position.
+32.  04-26-03	Selection incorrectly restored when window is uncovered, cf. 28.
+33.d 04-26-03	Some glyphs appear to have been clipped on the right side (only before a whitespace?)
+				-- whitespace chars are no longer sent to TextOut.
+34.i 04-26-03	Don't use b_bottom
+				-- keep for now
+35.d 05-04-03	Dont' reposition caret on SetFocus().
+36.d 05-28-03	...great, but now caret is not shown on initial display; also after wnd gets back focus.
+36.  05-28-03	Editing: goes into endless loop when space is pressed and held.
+37.  05-31-03	Send trace msg to stderr.
+38.  06-09-03	Selection not restored in uncovered region.
